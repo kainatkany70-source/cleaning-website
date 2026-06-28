@@ -1,0 +1,1069 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Pro - Luxury Cleaning Solutions</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .bg-hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .bg-cta-banner {
+            background: linear-gradient(rgba(15, 23, 42, 0.85), rgba(15, 23, 42, 0.85)), url('https://images.unsplash.com/photo-1556911220-e15b29be8c8f?auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+
+<body class="font-sans text-slate-800 bg-white antialiased">
+
+    <header class="bg-white border-b border-gray-100 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+
+            <div class="flex items-center gap-2">
+                <span class="text-2xl font-black tracking-wider text-slate-900">MAGIC PRO<span
+                        class="text-amber-500">.</span></span>
+            </div>
+
+            <nav class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-600">
+                <a href="index.html" class="text-amber-600 font-semibold">Home</a>
+                <a href="service.html" class="hover:text-slate-900 transition">Services</a>
+                <a href="gallery.html " class="hover:text-slate-900 transition">Gallery</a>
+                <a href="reviews.html" class="hover:text-slate-900 transition">Reviews</a>
+                <a href="about.html" class="hover:text-slate-900 transition">About</a>
+                <a href="areas.html" class="hover:text-slate-900 transition">Areas</a>
+                <a href="contact.html" class="hover:text-slate-900 transition">Contact</a>
+            </nav>
+
+            <div class="hidden lg:flex items-center gap-6">
+                <a href="tel:9496945593" class="flex items-center gap-2 text-sm font-bold text-slate-900">
+                    <i class="fa-solid fa-phone text-amber-500"></i>(000) 000-0000
+                </a>
+                <a href="contact.html"
+                    class="bg-slate-950 text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:bg-slate-800 transition shadow-sm">Free
+                    Estimate</a>
+            </div>
+
+            <div class="md:hidden flex items-center">
+                <button id="menu-btn"
+                    class="text-slate-900 focus:outline-none p-2 rounded-lg hover:bg-slate-100 transition">
+                    <i id="menu-icon" class="fa-solid fa-bars text-2xl"></i>
+                </button>
+            </div>
+        </div>
+
+        <div id="mobile-menu"
+            class="hidden md:hidden bg-white border-b border-gray-200 px-4 pt-2 pb-6 space-y-3 shadow-lg transition-all duration-300">
+            <a href="index.html"
+                class="block px-3 py-2 rounded-xl text-base font-semibold text-amber-600 bg-amber-50/50">Home</a>
+            <a href="service.html"
+                class="block px-3 py-2 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-950 transition">Services</a>
+            <a href="gallery.html"
+                class="block px-3 py-2 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-950 transition">Gallery</a>
+            <a href="reviews.html"
+                class="block px-3 py-2 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-950 transition">Reviews</a>
+            <a href="about.html"
+                class="block px-3 py-2 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-950 transition">About</a>
+            <a href="areas.html"
+                class="block px-3 py-2 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-950 transition">Areas</a>
+            <a href="contact.html"
+                class="block px-3 py-2 rounded-xl text-base font-medium text-slate-700 hover:bg-slate-50 hover:text-slate-950 transition">Contact</a>
+
+            <div class="pt-4 border-t border-gray-100 flex flex-col gap-3">
+                <a href="tel:9496945593"
+                    class="flex items-center justify-center gap-2 py-3 border border-slate-200 rounded-xl text-sm font-bold text-slate-900 bg-slate-50">
+                    <i class="fa-solid fa-phone text-amber-500"></i> Call: (000) 000-0000
+                </a>
+                <a href="contact.html"
+                    class="block text-center bg-slate-950 text-white py-3 rounded-xl text-sm font-semibold hover:bg-slate-800 transition shadow-sm">
+                    Free Estimate
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-hero min-h-[650px] flex items-center py-12 lg:py-20 text-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+
+            <div class="lg:col-span-7 space-y-6">
+                <span
+                    class="inline-block bg-white/10 backdrop-blur-md text-amber-400 text-xs font-bold tracking-widest uppercase px-3 py-1.5 rounded-full border border-white/20">
+                    <span class="text-amber-500 mr-1.5">●</span> Family Owned - Orange County
+                </span>
+                <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight leading-[1.1]">
+                    Luxury Cleaning <br>That Makes <br>Your Home Feel <br><span class="text-amber-400 italic">Brand
+                        New.</span>
+                </h1>
+                <p class="text-lg text-slate-200 font-normal max-w-xl leading-relaxed">
+                    Professional house, carpet, move-in/out, office and deep cleaning — handled with white-glove
+                    precision across Orange County.
+                </p>
+
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-4">
+                    <div
+                        class="bg-white/10 backdrop-blur-sm px-3 py-2 rounded-lg border border-white/10 flex items-center gap-2 text-xs font-semibold">
+                        <i class="fa-solid fa-check text-amber-400"></i> Family Owned
+                    </div>
+                    <div
+                        class="bg-white/10 backdrop-blur-sm px-3 py-2 rounded-lg border border-white/10 flex items-center gap-2 text-xs font-semibold">
+                        <i class="fa-solid fa-check text-amber-400"></i> 28+ Years Exp
+                    </div>
+                    <div
+                        class="bg-white/10 backdrop-blur-sm px-3 py-2 rounded-lg border border-white/10 flex items-center gap-2 text-xs font-semibold">
+                        <i class="fa-solid fa-check text-amber-400"></i> Eco-Friendly
+                    </div>
+                    <div
+                        class="bg-white/10 backdrop-blur-sm px-3 py-2 rounded-lg border border-white/10 flex items-center gap-2 text-xs font-semibold">
+                        <i class="fa-solid fa-star text-amber-400"></i> 4.9 ★ Rated
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap items-center gap-4 pt-4">
+                    <a href="contact.html"
+                        class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-6 py-3.5 rounded-full flex items-center gap-2 shadow-lg transition">
+                        Get Free Estimate <i class="fa-solid fa-arrow-right text-sm"></i>
+                    </a>
+                    <a href="tel:9496945593"
+                        class="bg-white/10 backdrop-blur-md hover:bg-white/20 border border-white/20 font-bold px-6 py-3.5 rounded-full flex items-center gap-2 transition">
+                        <i class="fa-solid fa-phone"></i>(000) 000-0000
+                    </a>
+                </div>
+            </div>
+            <div class="lg:col-span-5">
+                <div
+                    class="bg-slate-950/90 backdrop-blur-lg border border-slate-800 p-8 rounded-3xl shadow-2xl space-y-6">
+                    <div>
+                        <h3 class="text-2xl font-bold tracking-tight">Get Your Free Estimate</h3>
+                        <p class="text-sm text-slate-400 mt-1">Response within minutes during business hours.</p>
+                    </div>
+
+                    <form id="magic-estimate-form" class="space-y-4">
+
+                        <input type="hidden" name="access_key" value="dc63d680-0af6-4e35-a56c-51796fe9bd79">
+                        <input type="hidden" name="subject" value="New Cleaning Estimate Requested">
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <input type="text" name="name" required placeholder="Name"
+                                class="w-full bg-[#11192E] border border-slate-800/80 rounded-xl px-4 py-3 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-[#C5A25D] transition-colors">
+                            <input type="tel" name="phone" required placeholder="Phone"
+                                class="w-full bg-[#11192E] border border-slate-800/80 rounded-xl px-4 py-3 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-[#C5A25D] transition-colors">
+                        </div>
+
+                        <input type="email" name="email" required placeholder="Email Address"
+                            class="w-full bg-[#11192E] border border-slate-800/80 rounded-xl px-4 py-3 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-[#C5A25D] transition-colors">
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <select name="service" required
+                                class="w-full bg-[#11192E] border border-slate-800/80 rounded-xl px-4 py-3 text-xs text-slate-400 focus:outline-none focus:border-[#C5A25D] transition-colors appearance-none">
+                                <option value="" selected disabled>Service Needed</option>
+                                <option value="House Cleaning">House Cleaning</option>
+                                <option value="Deep Cleaning">Deep Cleaning</option>
+                                <option value="Carpet Cleaning">Carpet Cleaning</option>
+                                <option value="Move-In / Move-Out">Move-In / Move-Out</option>
+                            </select>
+                            <input type="text" name="city" required placeholder="City"
+                                class="w-full bg-[#11192E] border border-slate-800/80 rounded-xl px-4 py-3 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-[#C5A25D] transition-colors">
+                        </div>
+
+                        <textarea name="message" placeholder="Tell us about your space (optional)" rows="4"
+                            class="w-full bg-[#11192E] border border-slate-800/80 rounded-xl px-4 py-3 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-[#C5A25D] transition-colors resize-none"></textarea>
+
+                        <button type="submit" id="estimate-submit-btn"
+                            class="w-full bg-[#C5A25D] text-[#0B132B] font-bold text-xs py-4 rounded-xl hover:bg-[#b08e4f] transition uppercase tracking-wider mt-2 cursor-pointer disabled:opacity-50">
+                            Request Free Estimate
+                        </button>
+                    </form>
+
+                    <div id="estimate-form-result" class="hidden mt-4 text-center p-4 rounded-xl border text-xs">
+                        <p id="estimate-result-text" class="font-medium"></p>
+                    </div>
+
+
+                    <script>
+                        const estimateForm = document.getElementById('magic-estimate-form');
+                        const estimateResult = document.getElementById('estimate-form-result');
+                        const estimateResultText = document.getElementById('estimate-result-text');
+                        const estimateSubmitBtn = document.getElementById('estimate-submit-btn');
+
+                        estimateForm.addEventListener('submit', function (e) {
+                            e.preventDefault();
+
+                            // Set loading state
+                            estimateSubmitBtn.disabled = true;
+                            estimateSubmitBtn.innerText = "Sending Request...";
+
+                            const formData = new FormData(estimateForm);
+                            const object = Object.fromEntries(formData);
+                            const json = JSON.stringify(object);
+
+                            // Reset result element states
+                            estimateResult.classList.remove('hidden', 'bg-emerald-950/30', 'border-emerald-800/50', 'text-emerald-400', 'bg-red-950/30', 'border-red-800/50', 'text-red-400');
+
+                            fetch('https://api.web3forms.com/submit', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json',
+                                    'Accept': 'application/json'
+                                },
+                                body: json
+                            })
+                                .then(async (response) => {
+                                    let resJson = await response.json();
+                                    if (response.status == 200) {
+                                        // Success Case: Matches your premium dark theme with emerald highlights
+                                        estimateResult.classList.add('bg-emerald-950/30', 'border-emerald-800/50', 'text-emerald-400');
+                                        estimateResultText.innerHTML = "✨ <b>Thank You!</b> Your estimate request has been submitted successfully. We'll contact you shortly.";
+                                        estimateForm.reset();
+                                    } else {
+                                        // Error Case
+                                        estimateResult.classList.add('bg-red-950/30', 'border-red-800/50', 'text-red-400');
+                                        estimateResultText.innerHTML = "⚠️ " + resJson.message;
+                                    }
+                                })
+                                .catch(error => {
+                                    console.log(error);
+                                    estimateResult.classList.add('bg-red-950/30', 'border-red-800/50', 'text-red-400');
+                                    estimateResultText.innerHTML = "Something went wrong. Please try again later.";
+                                })
+                                .then(() => {
+                                    // Restore button native state
+                                    estimateSubmitBtn.disabled = false;
+                                    estimateSubmitBtn.innerText = "Request Free Estimate";
+                                    estimateResult.classList.remove('hidden');
+                                });
+                        });
+                    </script>
+
+                    <div id="formResult" class="mt-4 text-center text-xs font-semibold p-3 rounded-xl hidden">
+                    </div>
+
+                    <p class="text-center text-[10px] text-slate-500 mt-6">Response within minutes during
+                        business hours.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-slate-50 border-b border-gray-200/60 py-10">
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-2 md:grid-cols-4 gap-8 text-center md:text-left">
+            <div>
+                <h4 class="text-3xl font-black text-slate-950">4.9 ★</h4>
+                <p class="text-xs font-bold uppercase tracking-wider text-slate-400 mt-1">Google
+                    Rating</p>
+            </div>
+            <div>
+                <h4 class="text-3xl font-black text-slate-950">1,000+</h4>
+                <p class="text-xs font-bold uppercase tracking-wider text-slate-400 mt-1">Homes
+                    Cleaned</p>
+            </div>
+            <div>
+                <h4 class="text-3xl font-black text-slate-950">Res + Comm</h4>
+                <p class="text-xs font-bold uppercase tracking-wider text-slate-400 mt-1">
+                    Specialists</p>
+            </div>
+            <div>
+                <h4 class="text-3xl font-black text-slate-950">Orange County</h4>
+                <p class="text-xs font-bold uppercase tracking-wider text-slate-400 mt-1">Serving
+                    Locally</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <span class="text-xs font-bold text-amber-600 uppercase tracking-widest block mb-2">Limited
+                    Time</span>
+                <h2 class="text-4xl font-black tracking-tight text-slate-950">Exclusive Cleaning
+                    Specials</h2>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div
+                    class="bg-slate-50 border border-slate-100 p-6 rounded-2xl relative overflow-hidden flex flex-col justify-between h-44">
+                    <span
+                        class="absolute top-4 right-6 text-5xl font-black text-slate-200/60 pointer-events-none select-none">01</span>
+                    <div>
+                        <h4 class="text-xl font-extrabold text-slate-950">10% OFF</h4>
+                        <p class="text-sm text-slate-500 mt-1">First-Time Clients</p>
+                    </div>
+                    <a href="contact.html"
+                        class="text-xs font-bold text-slate-950 flex items-center gap-1.5 hover:text-amber-600 transition">CLAIM
+                        OFFER <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                </div>
+                <div
+                    class="bg-slate-50 border border-slate-100 p-6 rounded-2xl relative overflow-hidden flex flex-col justify-between h-44">
+                    <span
+                        class="absolute top-4 right-6 text-5xl font-black text-slate-200/60 pointer-events-none select-none">02</span>
+                    <div>
+                        <h4 class="text-xl font-extrabold text-slate-950">$99 Solar</h4>
+                        <p class="text-sm text-slate-500 mt-1">Panel Cleaning (10 panels)</p>
+                    </div>
+                    <a href="contact.html"
+                        class="text-xs font-bold text-slate-950 flex items-center gap-1.5 hover:text-amber-600 transition">GET
+                        QUOTE <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                </div>
+                <div
+                    class="bg-slate-50 border border-slate-100 p-6 rounded-2xl relative overflow-hidden flex flex-col justify-between h-44">
+                    <span
+                        class="absolute top-4 right-6 text-5xl font-black text-slate-200/60 pointer-events-none select-none">03</span>
+                    <div>
+                        <h4 class="text-xl font-extrabold text-slate-950">20% Carpet</h4>
+                        <p class="text-sm text-slate-500 mt-1">With Building Service</p>
+                    </div>
+                    <a href="contact.html"
+                        class="text-xs font-bold text-slate-950 flex items-center gap-1.5 hover:text-amber-600 transition">LEARN
+                        MORE <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                </div>
+                <div
+                    class="bg-slate-50 border border-slate-100 p-6 rounded-2xl relative overflow-hidden flex flex-col justify-between h-44">
+                    <span
+                        class="absolute top-4 right-6 text-5xl font-black text-slate-200/60 pointer-events-none select-none">04</span>
+                    <div>
+                        <h4 class="text-xl font-extrabold text-slate-950">Floor Waxing</h4>
+                        <p class="text-sm text-slate-500 mt-1">20% off w/ Carpet Deep Clean</p>
+                    </div>
+                    <a href="contact.html"
+                        class="text-xs font-bold text-slate-950 flex items-center gap-1.5 hover:text-amber-600 transition">BOOK
+                        TODAY <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-xs font-bold text-amber-600 uppercase tracking-widest block mb-2">What
+                    We Do</span>
+                <h2 class="text-4xl font-black tracking-tight text-slate-950">Professional Cleaning
+                    Services</h2>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div
+                    class="bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm flex flex-col justify-between h-full">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=80"
+                        alt="House Cleaning" class="h-48 w-full object-cover">
+                    <div class="p-5 flex-grow flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-950">House Cleaning</h3>
+                            <p class="text-sm text-slate-500 mt-1">Recurring care that keeps your
+                                sanctuary effortlessly
+                                pristine.</p>
+                        </div>
+                        <a href="service.html" class="text-xs font-bold text-amber-600 flex items-center gap-1">LEARN
+                            MORE <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm flex flex-col justify-between h-full">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=500&q=80"
+                        alt="Deep Cleaning" class="h-48 w-full object-cover">
+                    <div class="p-5 flex-grow flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-950">Deep Cleaning</h3>
+                            <p class="text-sm text-slate-500 mt-1">Top-to-bottom sanitization of
+                                every surface and
+                                corner.</p>
+                        </div>
+                        <a href="service.html" class="text-xs font-bold text-amber-600 flex items-center gap-1">LEARN
+                            MORE <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm flex flex-col justify-between h-full">
+                    <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=500&q=80"
+                        alt="Move-In/Move-Out" class="h-48 w-full object-cover">
+                    <div class="p-5 flex-grow flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-950">Move-In / Move-Out</h3>
+                            <p class="text-sm text-slate-500 mt-1">Spotless transitions for a fresh
+                                start in your new
+                                chapter.</p>
+                        </div>
+                        <a href="service.html" class="text-xs font-bold text-amber-600 flex items-center gap-1">LEARN
+                            MORE <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm flex flex-col justify-between h-full">
+                    <img src="https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=500&q=80"
+                        alt="Carpet Cleaning" class="h-48 w-full object-cover">
+                    <div class="p-5 flex-grow flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-950">Carpet Cleaning</h3>
+                            <p class="text-sm text-slate-500 mt-1">Hot extraction that lifts stains,
+                                allergens and
+                                odors.</p>
+                        </div>
+                        <a href="service.html" class="text-xs font-bold text-amber-600 flex items-center gap-1">LEARN
+                            MORE <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm flex flex-col justify-between h-full">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=500&q=80"
+                        alt="Office Cleaning" class="h-48 w-full object-cover">
+                    <div class="p-5 flex-grow flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-950">Office Cleaning</h3>
+                            <p class="text-sm text-slate-500 mt-1">Professional environments that
+                                reflect your
+                                standards.</p>
+                        </div>
+                        <a href="service.html" class="text-xs font-bold text-amber-600 flex items-center gap-1">LEARN
+                            MORE <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm flex flex-col justify-between h-full">
+                    <img src="https://images.unsplash.com/photo-1527689368864-3a821dbccc34?auto=format&fit=crop&w=500&q=80"
+                        alt="Window Cleaning" class="h-48 w-full object-cover">
+                    <div class="p-5 flex-grow flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-950">Window Cleaning</h3>
+                            <p class="text-sm text-slate-500 mt-1">Streak-free clarity for interior
+                                and exterior glass.
+                            </p>
+                        </div>
+                        <a href="service.html" class="text-xs font-bold text-amber-600 flex items-center gap-1">LEARN
+                            MORE <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm flex flex-col justify-between h-full">
+                    <img src="https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=500&q=80"
+                        alt="Pressure Washing" class="h-48 w-full object-cover">
+                    <div class="p-5 flex-grow flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-950">Pressure Washing</h3>
+                            <p class="text-sm text-slate-500 mt-1">Restore driveways, patios and
+                                exteriors to like-new.
+                            </p>
+                        </div>
+                        <a href="service.html" class="text-xs font-bold text-amber-600 flex items-center gap-1">LEARN
+                            MORE <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                    </div>
+                </div>
+
+                <div
+                    class="bg-white rounded-2xl overflow-hidden border border-slate-100 shadow-sm flex flex-col justify-between h-full">
+                    <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=500&q=80"
+                        alt="Airbnb Turnovers" class="h-48 w-full object-cover">
+                    <div class="p-5 flex-grow flex flex-col justify-between space-y-4">
+                        <div>
+                            <h3 class="font-bold text-lg text-slate-950">Airbnb Turnovers</h3>
+                            <p class="text-sm text-slate-500 mt-1">Hotel-grade resets between every
+                                guest stay.</p>
+                        </div>
+                        <a href="service.html" class="text-xs font-bold text-amber-600 flex items-center gap-1">LEARN
+                            MORE <i class="fa-solid fa-arrow-right text-[10px]"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-xs font-bold text-amber-600 uppercase tracking-widest block mb-2">Why
+                    Magic Pro</span>
+                <h2 class="text-4xl font-black tracking-tight text-slate-950">Homeowners Trust Us
+                    For Good Reason</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl space-y-3">
+                    <div class="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-600">
+                        <i class="fa-solid fa-award"></i>
+                    </div>
+                    <h3 class="font-extrabold text-lg text-slate-950">28+ Years Experience</h3>
+                    <p class="text-sm text-slate-500">Trusted professional cleaning specialists.</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl space-y-3">
+                    <div class="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-600">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <h3 class="font-extrabold text-lg text-slate-950">Family-Owned Business</h3>
+                    <p class="text-sm text-slate-500">Personalized service with attention to detail.
+                    </p>
+                </div>
+                <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl space-y-3">
+                    <div class="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-600">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3 class="font-extrabold text-lg text-slate-950">Eco-Friendly Cleaning</h3>
+                    <p class="text-sm text-slate-500">Safe for children, pets and families.</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl space-y-3">
+                    <div class="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-600">
+                        <i class="fa-solid fa-calendar-check"></i>
+                    </div>
+                    <h3 class="font-extrabold text-lg text-slate-950">Reliable Scheduling</h3>
+                    <p class="text-sm text-slate-500">On-time arrivals and dependable service.</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl space-y-3">
+                    <div class="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-600">
+                        <i class="fa-solid fa-face-smile"></i>
+                    </div>
+                    <h3 class="font-extrabold text-lg text-slate-950">Satisfaction Guaranteed</h3>
+                    <p class="text-sm text-slate-500">We make sure every client is happy.</p>
+                </div>
+                <div class="bg-slate-50 border border-slate-100 p-8 rounded-2xl space-y-3">
+                    <div class="w-10 h-10 rounded-full bg-amber-500/10 flex items-center justify-center text-amber-600">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <h3 class="font-extrabold text-lg text-slate-950">Licensed & Professional</h3>
+                    <p class="text-sm text-slate-500">Trained, vetted and fully insured cleaners.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-16 md:py-24 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+        <div class="space-y-6">
+            <span class="text-xs font-bold tracking-widest text-amber-600 uppercase block">
+                COMMERCIAL & BUILDING CLEANING EXPERTS
+            </span>
+
+            <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 leading-tight">
+                Professional <br>
+                Building Cleaning & <br>
+                <span class="text-amber-500">Maintenance Solutions.</span>
+            </h1>
+
+            <p class="text-slate-600 text-base md:text-lg max-w-xl leading-relaxed">
+                Magic Pro Cleaning Solutions provides reliable building cleaning and maintenance services for commercial
+                properties, office buildings, apartment complexes, retail centers, schools and managed facilities
+                throughout Orange County.
+            </p>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-check text-amber-500 text-sm"></i>
+                    <span class="text-slate-800 font-medium text-sm">Scheduled Maintenance Programs</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-check text-amber-500 text-sm"></i>
+                    <span class="text-slate-800 font-medium text-sm">Daily, Weekly & Monthly Cleaning</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-check text-amber-500 text-sm"></i>
+                    <span class="text-slate-800 font-medium text-sm">Interior & Exterior Cleaning</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-check text-amber-500 text-sm"></i>
+                    <span class="text-slate-800 font-medium text-sm">Common Area Maintenance</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-check text-amber-500 text-sm"></i>
+                    <span class="text-slate-800 font-medium text-sm">Professional Janitorial Services</span>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <i class="fa-solid fa-check text-amber-500 text-sm"></i>
+                    <span class="text-slate-800 font-medium text-sm">Licensed, Insured & Reliable</span>
+                </div>
+            </div>
+
+            <div class="flex flex-wrap gap-4 pt-4">
+                <a href="service.htmls"
+                    class="bg-slate-950 text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-slate-800 transition flex items-center space-x-2">
+                    <span>Explore Building Services</span>
+                    <i class="fa-solid fa-arrow-right text-xs"></i>
+                </a>
+                <a href="contact.html"
+                    class="bg-amber-500 text-white px-6 py-3 rounded-full font-semibold text-sm hover:bg-amber-600 transition">
+                    Request Proposal
+                </a>
+            </div>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4 items-start">
+            <div class="space-y-4">
+                <div class="overflow-hidden rounded-2xl shadow-md">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=600"
+                        alt="Building Exterior" class="w-full h-64 object-cover object-center">
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-md transform translate-y-6">
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=600"
+                        alt="Building Interior" class="w-full h-80 object-cover object-center">
+                </div>
+            </div>
+
+            <div class="space-y-4 pt-12">
+                <div class="overflow-hidden rounded-2xl shadow-md">
+                    <img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=600"
+                        alt="Cleaning Staff" class="w-full h-52 object-cover object-center">
+                </div>
+                <div class="overflow-hidden rounded-2xl shadow-md">
+                    <img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=600"
+                        alt="Window Cleaning" class="w-full h-64 object-cover object-center">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="py-20 bg-[#0B132B] text-white overflow-hidden">
+        <div class="max-w-6xl mx-auto px-6 lg:px-12 text-center">
+
+            <div class="space-y-2 mb-12">
+                <span class="text-[10px] font-bold text-[#C5A25D] uppercase tracking-[0.3em] block">See The
+                    Difference</span>
+                <h2 class="text-3xl sm:text-[40px] font-black tracking-tight leading-tight">
+                    Drag the slider.<br class="sm:hidden"> Watch the magic.
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+
+                <div
+                    class="relative aspect-[4/3] rounded-[2rem] overflow-hidden shadow-2xl select-none group border border-slate-800/40 bg-slate-900 slider-container">
+                    <img src="images/clean af.jpeg" alt="After Clean White Carpet"
+                        class="absolute inset-0 w-full h-full object-cover pointer-events-none">
+                    <span
+                        class="absolute top-4 right-4 bg-[#C5A25D]/90 text-[#0B132B] text-[9px] font-bold tracking-widest px-3 py-1 rounded-full uppercase z-20">After</span>
+
+                    <div class="absolute inset-0 w-full h-full before-layer" style="clip-path: inset(0 50% 0 0);">
+                        <div class="absolute inset-0 bg-no-repeat bg-cover filter brightness-[0.8]"
+                            style="background-image: url('images/clean b.jpeg');">
+                        </div>
+                        <div class="absolute top-[25%] right-[2%] w-[220px] h-[180px] bg-[#933A11] opacity-95 blur-[3px] pointer-events-none mix-blend-multiply"
+                            style="clip-path: polygon(25% 15%, 60% 5%, 90% 25%, 95% 60%, 75% 90%, 45% 95%, 15% 80%, 5% 45%); shadow: inset 0 0 15px rgba(0,0,0,0.5);">
+                        </div>
+                        <div
+                            class="absolute inset-x-0 top-0 h-[40%] bg-gradient-to-b from-black/70 via-black/30 to-transparent pointer-events-none">
+                        </div>
+                        <span
+                            class="absolute top-4 left-4 bg-slate-950/80 text-white text-[9px] font-bold tracking-widest px-3 py-1 rounded-full uppercase z-20">Before</span>
+                    </div>
+
+                    <div
+                        class="absolute inset-y-0 left-1/2 w-[2px] bg-white z-30 cursor-ew-resize flex items-center justify-center slider-handle">
+                        <div
+                            class="w-8 h-8 bg-white text-slate-700 rounded-full shadow-xl flex items-center justify-center pointer-events-none border border-slate-200">
+                            <i class="fa-solid fa-arrows-left-right text-[10px]"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="relative aspect-[4/3] rounded-[2rem] overflow-hidden shadow-2xl select-none group border border-slate-800/40 bg-slate-900 slider-container">
+                    <img src="images/bath af.jpeg" alt="After Clean Bathroom Tiles"
+                        class="absolute inset-0 w-full h-full object-cover pointer-events-none">
+                    <span
+                        class="absolute top-4 right-4 bg-[#C5A25D]/90 text-[#0B132B] text-[9px] font-bold tracking-widest px-3 py-1 rounded-full uppercase z-20">After</span>
+
+                    <div class="absolute inset-0 w-full h-full before-layer" style="clip-path: inset(0 50% 0 0);">
+                        <div class="absolute inset-0 bg-no-repeat bg-cover filter sepia saturate-[2.5] contrast-[1.35] brightness-[0.55]"
+                            style="background-image: url('images/bath b.jpeg');">
+                        </div>
+
+                        <div class=" absolute inset-y-0 left-[35%] w-[5px] bg-black/50 blur-[2px] pointer-events-none">
+                        </div>
+                        <div class="absolute inset-y-0 left-[70%] w-[4px] bg-black/60 blur-[2px] pointer-events-none">
+                        </div>
+                        <div class="absolute inset-x-0 top-[40%] h-[4px] bg-black/50 blur-[1.5px] pointer-events-none">
+                        </div>
+                        <div class="absolute inset-x-0 top-[75%] h-[5px] bg-black/60 blur-[2px] pointer-events-none">
+                        </div>
+
+                        <div
+                            class="absolute inset-y-0 left-0 w-[20%] bg-gradient-to-r from-black/40 to-transparent pointer-events-none">
+                        </div>
+                        <span
+                            class="absolute top-4 left-4 bg-slate-950/80 text-white text-[9px] font-bold tracking-widest px-3 py-1 rounded-full uppercase z-20">Before</span>
+                    </div>
+
+                    <div
+                        class="absolute inset-y-0 left-1/2 w-[2px] bg-white z-30 cursor-ew-resize flex items-center justify-center slider-handle">
+                        <div
+                            class="w-8 h-8 bg-white text-slate-700 rounded-full shadow-xl flex items-center justify-center pointer-events-none border border-slate-200">
+                            <i class="fa-solid fa-arrows-left-right text-[10px]"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.querySelectorAll('.slider-container').forEach(container => {
+            const handle = container.querySelector('.slider-handle');
+            const beforeLayer = container.querySelector('.before-layer');
+            let isSliding = false;
+
+            const processMove = (clientX) => {
+                const containerRect = container.getBoundingClientRect();
+                const currentX = clientX - containerRect.left;
+                let slidePercent = (currentX / containerRect.width) * 100;
+
+                // Constrain between borders
+                if (slidePercent < 0) slidePercent = 0;
+                if (slidePercent > 100) slidePercent = 100;
+
+                // Move lines and shift content clip
+                handle.style.left = `${slidePercent}%`;
+                beforeLayer.style.clipPath = `inset(0 ${100 - slidePercent}% 0 0)`;
+            };
+
+            // Mouse Desktop Events
+            handle.addEventListener('mousedown', () => isSliding = true);
+            window.addEventListener('mouseup', () => isSliding = false);
+            window.addEventListener('mousemove', (e) => {
+                if (!isSliding) return;
+                processMove(e.clientX);
+            });
+
+            // Touch Mobile Events
+            handle.addEventListener('touchstart', () => isSliding = true);
+            window.addEventListener('touchend', () => isSliding = false);
+            window.addEventListener('touchmove', (e) => {
+                if (!isSliding) return;
+                processMove(e.touches[0].clientX);
+            });
+        });
+    </script>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <h2 class="text-4xl font-black tracking-tight text-slate-950">Recent Cleaning Projects
+            </h2>
+
+            <div class="columns-1  sm:columns-2 lg:columns-4 gap-3 space-y-4">
+                <div class="break-inside-avoid"><img
+                        class="w-full rounded-2xl object-cover shadow-sm border border-slate-100"
+                        src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=500&q=80"
+                        alt="Project"></div>
+                <div class="break-inside-avoid"><img
+                        class="w-full rounded-2xl object-cover shadow-sm border border-slate-100" src="images/124.avif"
+                        alt="Project"></div>
+                <div class="break-inside-avoid"><img
+                        class="w-full rounded-2xl object-cover shadow-sm border border-slate-100" src="images/12.avif"
+                        alt="Project"></div>
+                <div class="break-inside-avoid"><img
+                        class="w-full rounded-2xl object-cover shadow-sm border border-slate-100" src="images/c2f.avif"
+                        alt="Project"></div>
+                <div class="break-inside-avoid"><img
+                        class="w-full rounded-2xl object-cover shadow-sm border border-slate-100" src="images/c.avif"
+                        alt="Project"></div>
+                <div class="break-inside-avoid"><img
+                        class="w-full rounded-2xl object-cover shadow-sm border border-slate-100" src="images/126.avif"
+                        alt="Project"></div>
+                <div class="break-inside-avoid"><img
+                        class="w-full rounded-2xl object-cover shadow-sm border border-slate-100" src="images/123.avif"
+                        alt="Project"></div>
+                <div class="break-inside-avoid"><img
+                        class="w-full rounded-2xl object-cover shadow-sm border border-slate-100" src="images/125.avif"
+                        alt="Project"></div>
+            </div>
+
+            <div class="text-center pt-4">
+                <a href="gallery.html"
+                    class="inline-block bg-slate-950 hover:bg-slate-800 text-white text-xs font-bold px-6 py-3 rounded-full shadow-sm transition tracking-wider uppercase">View
+                    Full Gallery →</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-12">
+            <div>
+                <span class="text-xs font-bold text-amber-600 uppercase tracking-widest block mb-2">Loved
+                    By
+                    Locals</span>
+                <h2 class="text-4xl font-black tracking-tight text-slate-950">What Clients Say About
+                    Us</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+                <div
+                    class="bg-white border border-slate-100 p-6 rounded-2xl space-y-4 shadow-sm flex flex-col justify-between">
+                    <div class="space-y-2">
+                        <div class="text-amber-500 text-xs flex gap-0.5"><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="text-sm text-slate-600 leading-relaxed italic">"They made our
+                            house look completely
+                            brand new. Extremely professional and detailed."</p>
+                    </div>
+                    <span class="text-xs font-bold tracking-wider text-slate-400 uppercase">— SARAH
+                        M.</span>
+                </div>
+                <div
+                    class="bg-white border border-slate-100 p-6 rounded-2xl space-y-4 shadow-sm flex flex-col justify-between">
+                    <div class="space-y-2">
+                        <div class="text-amber-500 text-xs flex gap-0.5"><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="text-sm text-slate-600 leading-relaxed italic">"The best carpet
+                            cleaning service we've
+                            used in Orange County."</p>
+                    </div>
+                    <span class="text-xs font-bold tracking-wider text-slate-400 uppercase">— DANIEL
+                        R.</span>
+                </div>
+                <div
+                    class="bg-white border border-slate-100 p-6 rounded-2xl space-y-4 shadow-sm flex flex-col justify-between">
+                    <div class="space-y-2">
+                        <div class="text-amber-500 text-xs flex gap-0.5"><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p class="text-sm text-slate-600 leading-relaxed italic">"Fast, reliable,
+                            and the communication
+                            was excellent."</p>
+                    </div>
+                    <span class="text-xs font-bold tracking-wider text-slate-400 uppercase">—
+                        JESSICA L.</span>
+                </div>
+            </div>
+
+            <a href="reviews.html"
+                class="inline-block text-xs font-bold text-amber-600 hover:text-amber-700 tracking-wider">Read
+                more reviews →</a>
+        </div>
+    </section>
+
+    <section class="py-20 bg-white border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-6 space-y-6">
+                <div>
+                    <span class="text-xs font-bold text-amber-600 uppercase tracking-widest block mb-2">Coverage</span>
+                    <h2 class="text-4xl font-black tracking-tight text-slate-950">Proudly Serving
+                        Orange County</h2>
+                </div>
+
+                <div class="flex flex-wrap gap-2">
+                    <span
+                        class="bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-full text-xs font-medium text-slate-600">●
+                        San Juan Capistrano</span>
+                    <span
+                        class="bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-full text-xs font-medium text-slate-600">●
+                        Dana Point</span>
+                    <span
+                        class="bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-full text-xs font-medium text-slate-600">●
+                        Mission Viejo</span>
+                    <span
+                        class="bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-full text-xs font-medium text-slate-600">●
+                        Irvine</span>
+                    <span
+                        class="bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-full text-xs font-medium text-slate-600">●
+                        Newport Beach</span>
+                    <span
+                        class="bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-full text-xs font-medium text-slate-600">●
+                        Costa Mesa</span>
+                    <span
+                        class="bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-full text-xs font-medium text-slate-600">●
+                        Tustin</span>
+                    <span
+                        class="bg-slate-50 border border-slate-100 px-3 py-1.5 rounded-full text-xs font-medium text-slate-600">●
+                        Laguna Hills</span>
+                </div>
+                <a href="areas.html" class="inline-block text-xs font-bold text-amber-600 tracking-wider">See
+                    all
+                    areas
+                    →</a>
+            </div>
+
+            <div class="lg:col-span-6">
+                <div class="rounded-2xl overflow-hidden shadow-md border border-slate-100 aspect-video bg-slate-100">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106437.33036663242!2d-117.72146955!3d33.49129594999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dced277dd1f68f%3A0xc3f58e1957bf855e!2sSan%20Juan%20Capistrano%2C%20CA!5e0!3m2!1sen!2sus!4v1717840000000!5m2!1sen!2sus"
+                        class="w-full h-full border-0" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-20 bg-slate-50">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <div class="text-center">
+                <span class="text-xs font-bold text-amber-600 uppercase tracking-widest block mb-2">FAQ</span>
+                <h2 class="text-4xl font-black tracking-tight text-slate-950">Frequently Asked
+                    Questions</h2>
+            </div>
+
+            <div class="space-y-3">
+                <details
+                    class="group bg-white border border-slate-200/60 rounded-xl overflow-hidden [&_summary::-webkit-details-marker]:hidden">
+                    <summary
+                        class="flex justify-between items-center p-5 font-bold text-slate-950 cursor-pointer select-none">
+                        How much does house cleaning cost?
+                        <span class="text-amber-500 transition group-open:rotate-45"><i
+                                class="fa-solid fa-plus text-sm"></i></span>
+                    </summary>
+                    <div class="px-5 pb-5 text-sm text-slate-500 leading-relaxed border-t border-slate-50 pt-3">
+                        Pricing depends on the size of your home and the type of cleaning service
+                        requested. Please use
+                        our estimate tool for a detailed quote.
+                    </div>
+                </details>
+                <details
+                    class="group bg-white border border-slate-200/60 rounded-xl overflow-hidden [&_summary::-webkit-details-marker]:hidden">
+                    <summary
+                        class="flex justify-between items-center p-5 font-bold text-slate-950 cursor-pointer select-none">
+                        Do you bring cleaning supplies?
+                        <span class="text-amber-500 transition group-open:rotate-45"><i
+                                class="fa-solid fa-plus text-sm"></i></span>
+                    </summary>
+                    <div class="px-5 pb-5 text-sm text-slate-500 leading-relaxed border-t border-slate-50 pt-3">
+                        Yes, we bring all professional-grade equipment and eco-friendly cleaning
+                        supplies required.
+                    </div>
+                </details>
+                <details
+                    class="group bg-white border border-slate-200/60 rounded-xl overflow-hidden [&_summary::-webkit-details-marker]:hidden">
+                    <summary
+                        class="flex justify-between items-center p-5 font-bold text-slate-950 cursor-pointer select-none">
+                        Do you offer recurring cleaning?
+                        <span class="text-amber-500 transition group-open:rotate-45"><i
+                                class="fa-solid fa-plus text-sm"></i></span>
+                    </summary>
+                    <div class="px-5 pb-5 text-sm text-slate-500 leading-relaxed border-t border-slate-50 pt-3">
+                        Absolutely. We offer flexible weekly, bi-weekly, and monthly recurring plans
+                        tailored to your
+                        needs.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+    <section class="bg-cta-banner py-20 text-white text-center relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 space-y-6 relative z-10">
+            <span class="text-xs font-bold text-amber-400 uppercase tracking-widest block">Ready When You Are</span>
+            <h2 class="text-4xl sm:text-5xl font-black tracking-tight">A Cleaner Home Starts <span
+                    class="text-amber-400 italic">Today.</span></h2>
+            <p class="text-slate-300 max-w-xl mx-auto text-sm sm:text-base">Professional cleaning services trusted
+                by
+                homeowners and businesses across Orange County.</p>
+
+            <div class="flex flex-wrap justify-center gap-4 pt-4">
+                <a href="contact.html"
+                    class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-6 py-3 rounded-full flex items-center gap-2 shadow-lg transition text-sm">Get
+                    Free Estimate →</a>
+                <a href="tel:9496945593"
+                    class="bg-white/10 backdrop-blur-md hover:bg-white/20 border border-white/20 font-bold px-6 py-3 rounded-full flex items-center gap-2 transition text-sm"><i
+                        class="fa-solid fa-phone"></i> Call(000) 000-0000</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-400 text-xs py-16 border-t border-slate-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-12">
+
+            <div class="space-y-4">
+                <span class="text-xl font-black text-white tracking-wider">MAGIC PRO<span
+                        class="text-amber-500">.</span></span>
+                <p class="leading-relaxed text-slate-400">Family-owned luxury cleaning serving Orange County since
+                    2012.
+                    Eco-friendly, Reliable, Detail obsessed.</p>
+                <div class="text-amber-500 flex gap-0.5"><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                        class="fa-solid fa-star"></i> <span class="text-slate-400 ml-1 font-semibold">4.9 / 5
+                        Google</span></div>
+            </div>
+
+            <div class="space-y-4">
+                <h4 class="font-bold text-white uppercase tracking-wider text-[11px]">Quick Links</h4>
+                <ul class="space-y-2.5">
+                    <li><a href="#" class="hover:text-white transition">Home</a></li>
+                    <li><a href="service.html" hover:text-white transition">Services</a></li>
+                    <li><a href="gallery.html" hover:text-white transition">Gallery</a></li>
+                    <li><a href="reviews.html" hover:text-white transition">Reviews</a></li>
+                    <li><a href="about.html" hover:text-white transition">About</a></li>
+                </ul>
+            </div>
+
+            <div class="space-y-4">
+                <h4 class="font-bold text-white uppercase tracking-wider text-[11px]">Services</h4>
+                <ul class="space-y-2.5">
+                    <li><a href="service.html" hover:text-white transition">House Cleaning</a></li>
+                    <li><a href="service.html" hover:text-white transition">Deep Cleaning</a></li>
+                    <li><a href="service.html" hover:text-white transition">Carpet Cleaning</a></li>
+                    <li><a href="service.html" hover:text-white transition">Move-In / Move-Out</a></li>
+                    <li><a href="service.html" hover:text-white transition">Office Cleaning</a></li>
+                </ul>
+            </div>
+
+            <div class="space-y-4">
+                <h4 class="font-bold text-white uppercase tracking-wider text-[11px]">Contact</h4>
+                <ul class="space-y-3">
+                    <li class="flex items-start gap-2"><i class="fa-solid fa-location-dot mt-0.5 text-slate-500"></i>
+                        <span>San Juan Capistrano, CA 92675</span>
+                    </li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-phone text-slate-500"></i> <a
+                            href="tel:9496945593" class="hover:text-white transition">(949) 842-0020</a></li>
+                    <li class="flex items-center gap-2"><i class="fa-solid fa-envelope text-slate-500"></i> <a
+                            href="mailto:magicprosolutions@gmail.com"
+                            class="hover:text-white transition">mysite@gmail.com</a></li>
+                </ul>
+                <div class="flex gap-3 pt-2">
+                    <a href="#"
+                        class="w-7 h-7 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white transition"><i
+                            class="fa-brands fa-facebook-f text-[11px]"></i></a>
+                    <a href="#"
+                        class="w-7 h-7 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white transition"><i
+                            class="fa-brands fa-instagram text-[11px]"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div
+            class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-slate-900 flex flex-col sm:flex-row justify-between items-center gap-4 text-slate-500">
+            <p>© 2026 Magic Pro Cleaning Solutions. All rights reserved.</p>
+            <p class="text-[10px] uppercase tracking-wider">Licensed • Bonded • Insured</p>
+        </div>
+    </footer>
+
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
+
+        // Menu ko kholnay aur band karnay ke liye
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            if (mobileMenu.classList.contains('hidden')) {
+                menuIcon.classList.replace('fa-xmark', 'fa-bars');
+            } else {
+                menuIcon.classList.replace('fa-bars', 'fa-xmark');
+            }
+        });
+
+        // Mobile menu ke links par click hotay hi menu ko band karnay ke liye
+        const menuLinks = mobileMenu.querySelectorAll('a');
+        menuLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden'); // Menu band karein
+                menuIcon.classList.replace('fa-xmark', 'fa-bars'); // Icon tabdeel karein
+            });
+        });
+    </script>
+
+</body>
+
+</html>
